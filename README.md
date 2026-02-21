@@ -1,62 +1,6 @@
-<!DOCTYPE html>
-
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>README.me</title>
-<style>
-body {
-  margin: 0;
-  background: #121212;
-  overflow: hidden;
-  position: relative;
-  color: white;
-  font-family: sans-serif;
-}
-h1, h3, p, table {
-  position: relative;
-  z-index: 1;
-}
-#welcome {
-  text-align: center;
-  font-size: 2.5em;
-  animation: colorChange 2s infinite alternate;
-}
-@keyframes colorChange {
-  0% { color: black; }
-  100% { color: white; }
-}
-.paper {
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  background: rgba(255,255,255,0.6);
-  border-radius: 2px;
-  pointer-events: none;
-  animation-name: fall;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-@keyframes fall {
-  0% { transform: translateY(-10px) rotate(0deg); opacity: 0.6; }
-  100% { transform: translateY(100vh) rotate(360deg); opacity: 0.2; }
-}
-table {
-  border-collapse: collapse;
-  margin-top: 10px;
-}
-td {
-  padding: 4px 10px;
-  border: 1px solid white;
-  text-align: center;
-}
-</style>
-</head>
-<body>
-
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
-<p>Welcome to my home! <br> I'm Dxoma, Fullstack developer from <img src="https://cdn.discordapp.com/attachments/1457475879994261606/1474855612830453983/iraq.png?ex=699b5dd3&is=699a0c53&hm=113afc61743228b65475873a8354171b963610e38518cd78b3369b6ed0ef9e07&" width="20"/> <b>Iraq</b></p>
+<p>Welcome to my home! </br> I'm Dxoma, Fullstack developer from <img src="https://cdn.discordapp.com/attachments/1457475879994261606/1474855612830453983/iraq.png?ex=699b5dd3&is=699a0c53&hm=113afc61743228b65475873a8354171b963610e38518cd78b3369b6ed0ef9e07&" width="20"/> <b>Iraq</b></p>
 
 <h3>Things I code with</h3>
 <p>
@@ -103,22 +47,3 @@ td {
     <tr><td>6</td></tr>
   </tbody>
 </table>
-
-<script>
-const num = 200;
-for (let i = 0; i < num; i++) {
-  const p = document.createElement('div');
-  p.classList.add('paper');
-  p.style.left = Math.random() * window.innerWidth + 'px';
-  p.style.top = Math.random() * -window.innerHeight + 'px';
-  p.style.animationDuration = 3 + Math.random() * 5 + 's';
-  p.style.width = 5 + Math.random() * 10 + 'px';
-  p.style.height = 5 + Math.random() * 10 + 'px';
-  p.style.opacity = 0.2 + Math.random() * 0.5;
-  p.style.transform = `rotate(${Math.random() * 360}deg)`;
-  document.body.appendChild(p);
-}
-</script>
-
-</body>
-</html>
