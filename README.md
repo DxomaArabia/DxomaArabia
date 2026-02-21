@@ -31,19 +31,19 @@
   <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
 </p>
 
-<h3>Open source projects</h3>
+<h3>Skills</h3>
 <table>
   <thead align="center">
     <tr>
-      <td><b>Projects</b></td>
+      <td><b>My skills</b></td>
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td></tr>
-    <tr><td>2</td></tr>
-    <tr><td>3</td></tr>
-    <tr><td>4</td></tr>
-    <tr><td>5</td></tr>
-    <tr><td>6</td></tr>
+    <tr><td>Discord Developer</td></tr>
+    <tr><td>Python Automation</td></tr>
+    <tr><td>RATs & Remote Control</td></tr>
+    <tr><td>OSINT & Data Harvesting</td></tr>
+    <tr><td>Fullstack Web Developer</td></tr>
+    <tr><td>API & Database Management</td></tr>
   </tbody>
 </table>
