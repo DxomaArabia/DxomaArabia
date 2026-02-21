@@ -1,6 +1,6 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
-<p>Welcome to my home! </br> I'm Dxoma, Fullstack developer from <img src="https://cdn.discordapp.com/attachments/1457475879994261606/1474855612830453983/iraq.png?ex=699b5dd3&is=699a0c53&hm=113afc61743228b65475873a8354171b963610e38518cd78b3369b6ed0ef9e07&" width="20"/> <b>Iraq</b></p>
+<p>Welcome to my home! </br> I'm Dxoma, Fullstack developer from <img src="https://cdn.discordapp.com/attachments/1457475879994261606/1474855612830453983/iraq.png?ex=699b5dd3&is=699a0c53&hm=113afc61743228b65475873a8354171b963610e38518cd78b3369b6ed0ef9e07&" width="15"/> <b>Iraq</b></p>
 
 <h3>Things I code with</h3>
 <p>
